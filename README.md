@@ -67,7 +67,7 @@ $0
 style
     include ./file.css
 $0
-````
+```
 
 ## Snippets -> syntax
 
