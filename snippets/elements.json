@@ -1,0 +1,12 @@
+{
+  "a": {
+    "prefix": "a",
+    "body": "a.${1:class}(href=\"${2:#}\", title=\"${3:title}\") $0",
+    "description": "a(href, title) Text"
+  },
+  "img": {
+    "prefix": "img",
+    "body": "img.${1:class}(src=\"${2:file}\", alt=\"${3:alt}\")\n$0",
+    "description": "img(src, alt)"
+  }
+}

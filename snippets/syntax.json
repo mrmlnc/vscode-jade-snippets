@@ -1,0 +1,47 @@
+{
+  "var": {
+    "prefix": "var",
+    "body": "- var ${1:name} = $0",
+    "description": "- var name = value"
+  },
+  "block": {
+    "prefix": "block",
+    "body": "block ${1:name}\n\t$2\n$0",
+    "description": "block"
+  },
+  "case": {
+    "prefix": "case",
+    "body": "case ${1:variable}\n\twhen ${2:condition}\n\t\t${3:code}\n\tdefault\n\t\t${4:code}\n$0",
+    "description": "case"
+  },
+  "each": {
+    "prefix": "each",
+    "body": "each ${1:val} in ${2:[]}\n\t$3\n$0",
+    "description": "each values"
+  },
+  "while": {
+    "prefix": "while",
+    "body": "while ${1:condition}\n\t$2\n$0",
+    "description": "while"
+  },
+  "extends": {
+    "prefix": "extends",
+    "body": "extends ${1:./file}.jade\n$0",
+    "description": "extends file"
+  },
+  "include": {
+    "prefix": "include",
+    "body": "include ${1:./file}.${2:jade}\n$0",
+    "description": "inlude file"
+  },
+  "mixin": {
+    "prefix": "mixin",
+    "body": "mixin ${1:name}(${2:vars})\n\t$3\n$0",
+    "description": "mixin"
+  },
+  "mixin:call": {
+    "prefix": "mixin:call",
+    "body": "+${1:name}(${2:attrs})${3:(${4:attrs})}\n$0",
+    "description": "call mixin"
+  }
+}

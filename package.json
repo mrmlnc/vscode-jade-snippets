@@ -1,0 +1,39 @@
+{
+  "name": "vscode-jade-snippets",
+  "displayName": "Jade Snippets",
+  "description": "Jade Snippets for Visual Studio Code",
+  "version": "0.1.0",
+  "publisher": "mrmlnc",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#569a83",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "homepage": "https://github.com/mrmlnc/vscode-jade-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "jade",
+        "path": "./snippets/elements.json"
+      },
+      {
+        "language": "jade",
+        "path": "./snippets/script.json"
+      },
+      {
+        "language": "jade",
+        "path": "./snippets/style.json"
+      },
+      {
+        "language": "jade",
+        "path": "./snippets/syntax.json"
+      }
+    ]
+  }
+}

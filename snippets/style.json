@@ -1,0 +1,17 @@
+{
+  "link": {
+    "prefix": "link",
+    "body": "link(href=\"${1:file.css}\", rel=\"stylesheet\")\n$0",
+    "description": "link(href,rel)"
+  },
+  "style": {
+    "prefix": "style",
+    "body": "style.\n\t$1\n$0",
+    "description": "style."
+  },
+  "style include": {
+    "prefix": "style:include",
+    "body": "style\n\tinclude ${1:./file.css}\n$0",
+    "description": "style -> include"
+  }
+}

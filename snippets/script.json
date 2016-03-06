@@ -1,0 +1,17 @@
+{
+  "script": {
+    "prefix": "script",
+    "body": "script(src=\"${1:file}.js\")\n$0",
+    "description": "script(src)"
+  },
+  "script.": {
+    "prefix": "script:inline",
+    "body": "script.\n\t$1\n$0",
+    "description": "script."
+  },
+  "script include": {
+    "prefix": "script:include",
+    "body": "script\n\tinclude ${1:./file.js}\n$0",
+    "description": "script -> include"
+  }
+}
