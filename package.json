@@ -4,7 +4,7 @@
   "description": "Jade Snippets for Visual Studio Code",
   "version": "0.1.0",
   "publisher": "mrmlnc",
-  "icon": "icon.png",
+  "icon": "icon.svg",
   "galleryBanner": {
     "color": "#569a83",
     "theme": "dark"
