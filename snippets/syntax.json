@@ -26,12 +26,12 @@
   },
   "extends": {
     "prefix": "extends",
-    "body": "extends ${1:./file}.jade\n$0",
+    "body": "extends ${1:./file.jade}\n$0",
     "description": "extends file"
   },
   "include": {
     "prefix": "include",
-    "body": "include ${1:./file}.${2:jade}\n$0",
+    "body": "include ${1:./file.jade}\n$0",
     "description": "inlude file"
   },
   "mixin": {
