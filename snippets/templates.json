@@ -1,0 +1,44 @@
+{
+    "html": {
+        "prefix": "html",
+        "body": "doctype html\nhtml\n\thead\n\t\ttitle $1\n\tbody\n\t\t$2\n",
+        "description": "html"
+    },
+    "html-template": {
+        "prefix": "html template",
+        "body": [
+            "htmldoctype html",
+            "html(lang='en')",
+            "\thead",
+            "\t\tmeta(charset='utf-8')",
+            "\t\tmeta(http-equiv='X-UA-Compatible', content='IE=edge')",
+            "\t\tmeta(name='viewport', content='width=device-width, initial-scale=1')",
+            "\t\tmeta(name='description', content='')",
+            "\t\tmeta(name='author', content='')",
+            "\t\tmeta(name='keywords', content='')\n",
+            "\ttitle $1\n",
+            "\t// HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries",
+            "\t// WARNING: Respond.js doesn't work if you view the page via file://",
+            "\t<!--[if lt IE 9]>",
+            "\t<script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js\"></script>",
+            "\t<script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>",
+            "\t<![endif]-->\n",
+            "\tbody",
+            "\t\th1",
+            "\t\t\t| hello world\n",
+            "\t\t// jQuery",
+            "\t\tscript(src='js/jquery.min.js')\n"
+        ],
+        "description": "html template"
+    },
+    "ie": {
+        "prefix": "ie",
+        "body": "<!--[if lt IE 9]>\n$1\n<![endif]-->",
+        "description": "IE Conditional Comment: < IE9"
+    },
+    "ie-not": {
+        "prefix": "ie not",
+        "body": "<!--[if !IE]>\n$1\n<![endif]-->",
+        "description": "IE Conditional Comment: Not IE"
+    }
+}

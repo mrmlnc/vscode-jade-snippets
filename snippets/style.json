@@ -1,8 +1,8 @@
 {
-  "link": {
-    "prefix": "link",
-    "body": "link(href=\"${1:file.css}\", rel=\"stylesheet\")\n$0",
-    "description": "link(href,rel)"
+  "link-stylesheet": {
+    "prefix": "link stylesheet",
+    "body": "link(rel='stylesheet', type='text/css', href='$1')",
+    "description": "link stylesheet"
   },
   "style": {
     "prefix": "style",

@@ -1,0 +1,32 @@
+{
+    "meta-charset": {
+        "prefix": "meta charset",
+        "body": "meta(charset='utf-8')",
+        "description": "meta charset"
+    },
+    "meta-http-equiv": {
+        "prefix": "meta http-equiv",
+        "body": "meta(http-equiv='X-UA-Compatible', content='IE=edge')",
+        "description": "meta http-equiv"
+    },
+    "meta-viewport": {
+        "prefix": "meta viewport",
+        "body": "meta(name='viewport', content='width=device-width, initial-scale=1')",
+        "description": "meta viewport"
+    },
+    "meta-description": {
+        "prefix": "meta description",
+        "body": "meta(name='description', content='$1')",
+        "description": "meta description"
+    },
+    "meta-author": {
+        "prefix": "meta author",
+        "body": "meta(name='author', content='$1')",
+        "description": "meta author"
+    },
+    "meta-keywords": {
+        "prefix": "meta keywords",
+        "body": "meta(name='keywords', content='$1')",
+        "description": "meta keywords"
+    }
+}

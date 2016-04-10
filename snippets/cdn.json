@@ -1,0 +1,42 @@
+{
+  "cdn-angularjs": {
+    "prefix": "cdn angularjs",
+    "body": "script(src='https://ajax.googleapis.com/ajax/libs/angularjs/$1/angular.min.js')",
+    "description": "cdn angularjs"
+  },
+  "cdn-angular-route": {
+    "prefix": "cdn angular route",
+    "body": "script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/$1/angular-route.min.js')",
+    "description": "cdn angular route"
+  },
+  "cdn-angular-sanitize": {
+    "prefix": "cdn angular sanitize",
+    "body": "script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/$1/angular-sanitize.min.js')",
+    "description": "cdn angular sanitize"
+  },
+  "cdn-angular-touch": {
+    "prefix": "cdn angular touch",
+    "body": "script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/$1/angular-touch.min.js')",
+    "description": "cdn angular touch"
+  },
+  "cdn-angular-ui-router": {
+    "prefix": "cdn angular ui-router",
+    "body": "script(src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/$1/angular-ui-router.min.js')",
+    "description": "cdn angular ui-router"
+  },
+  "cdn-jquery": {
+    "prefix": "cdn jquery",
+    "body": "script(src='https://ajax.googleapis.com/ajax/libs/jquery/$1/jquery.min.js')",
+    "description": "cdn jquery"
+  },
+  "cdn-jqueryui": {
+    "prefix": "cdn jqueryui",
+    "body": "script(src='https://ajax.googleapis.com/ajax/libs/jqueryui/$1/jquery-ui.min.js')",
+    "description": "cdn jqueryui"
+  },
+  "cdn-threejs": {
+    "prefix": "cdn threejs",
+    "body": "script(src='https://ajax.googleapis.com/ajax/libs/threejs/$1/three.min.js')",
+    "description": "cdn threejs"
+  }
+}

@@ -1,12 +1,72 @@
 {
-  "a": {
-    "prefix": "a",
-    "body": "a.${1:class}(href=\"${2:#}\", title=\"${3:title}\") $0",
-    "description": "a(href, title) Text"
-  },
-  "img": {
-    "prefix": "img",
-    "body": "img.${1:class}(src=\"${2:file}\", alt=\"${3:alt}\")\n$0",
-    "description": "img(src, alt)"
-  }
+    "a": {
+        "prefix": "a",
+        "body": "a.${1:class}(href=\"${2:#}\", title=\"${3:title}\") $0",
+        "description": "a(href, title) Text"
+    },
+    "title": {
+        "prefix": "title",
+        "body": "title $1",
+        "description": "title"
+    },
+    "img": {
+        "prefix": "img",
+        "body": "img.${1:class}(src=\"${2:file}\", alt=\"${3:alt}\")\n$0",
+        "description": "img(src, alt)"
+    },
+    "link-icon": {
+        "prefix": "link icon",
+        "body": "link(rel='icon', href='/favicon.png')",
+        "description": "link icon"
+    },
+    "base": {
+        "prefix": "base",
+        "body": "base(href='$1', target='${2:_blank, _self, _parent, _top}')",
+        "description": "Specify a default URL and a default target for all links on a page"
+    },
+    "area": {
+        "prefix": "area",
+        "body": "area(href='$1', alt='$2', target='$3', rel='$4', media='$5', type='$6')",
+        "description": "area"
+    },
+    "audio": {
+        "prefix": "audio",
+        "body": "audio(src='$1', autobuffer='', autoloop='', loop='', controls='')",
+        "description": "audio"
+    },
+    "audio-control": {
+        "prefix": "audio controls",
+        "body": [
+            "audio(controls='', autobuffer='', autoloop='', loop='')",
+            "\tsource(src='$1', type='$2')",
+            "\tsource(src='$1', type='$2')",
+            "\t|   Your browser does not support the audio tag."
+        ],
+        "description": "audio with controls"
+    },
+    "video": {
+        "prefix": "video",
+        "body": "video(src='$1', autobuffer='', autoloop='', loop='', controls='', poster='$2')",
+        "description": "video"
+    },
+    "video-control": {
+        "prefix": "video controls",
+        "body": [
+            "video(width='$1', height='$2', controls='')",
+            "\tsource(src='$3', type='$4')",
+            "\tsource(src='$3', type='$4')",
+            "\t| Your browser does not support the video tag."
+        ],
+        "description": "video with controls"
+    },
+    "embed": {
+        "prefix": "embed",
+        "body": "embed(src='$1', type='$2')",
+        "description": "embed"
+    },
+    "source": {
+        "prefix": "source",
+        "body": "source(src=$1'', type='$2', media='$3')",
+        "description": "source"
+    }
 }
