@@ -20,7 +20,15 @@
     "snippets": [
       {
         "language": "jade",
+        "path": "./snippets/cdn.json"
+      },
+      {
+        "language": "jade",
         "path": "./snippets/elements.json"
+      },
+      {
+        "language": "jade",
+        "path": "./snippets/meta.json"
       },
       {
         "language": "jade",
@@ -33,6 +41,10 @@
       {
         "language": "jade",
         "path": "./snippets/syntax.json"
+      },
+      {
+        "language": "jade",
+        "path": "./snippets/templates.json"
       }
     ]
   }
