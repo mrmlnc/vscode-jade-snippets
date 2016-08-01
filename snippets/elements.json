@@ -1,12 +1,17 @@
 {
   "a": {
     "prefix": "a",
-    "body": "a.${1:class}(href=\"${2:#}\", title=\"${3:title}\") $0",
-    "description": "a(href, title) Text"
+    "body": "a(href=\"${2:#}\", title=\"${3:title}\")${1:.class} $0",
+    "description": "a(href=\"#\", title=\"title\").class"
   },
-  "img": {
-    "prefix": "img",
-    "body": "img.${1:class}(src=\"${2:file}\", alt=\"${3:alt}\")\n$0",
-    "description": "img(src, alt)"
+
+  "figure": {
+    "prefix": "figure",
+    "body": [
+      "figure",
+        "\timg(src=\"${2:source}\", alt=\"${3:alt}\")${1:.class}",
+        "\tfigcaption $0"
+    ],
+    "description": "figure > img(src=\"source\", alt=\"alt\").class > figcaption"
   }
 }

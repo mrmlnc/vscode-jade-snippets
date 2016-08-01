@@ -1,0 +1,64 @@
+{
+    // Attributes for styling and controlling
+    "class": {
+        "prefix": "class",
+        "body": "class=\"$1\"$0",
+        "description": "Set class attribute"
+    },
+    "id": {
+        "prefix": "id",
+        "body": "id=\"$1\"$0",
+        "description": "Set id attribute"
+    },
+
+    // Common attributes
+    "data": {
+        "prefix": "data",
+        "body": "data-$1=\"$2\"$0",
+        "description": "Set data attribute"
+    },
+    "aria": {
+        "prefix": "aria",
+        "body": "aria-$1=\"$2\"$0",
+        "description": "Set aria attribute"
+    },
+    "role": {
+        "prefix": "role",
+        "body": "role=\"$1\"$0",
+        "description": "Set role attribute"
+    },
+
+    // Attributes for form settings
+    "method": {
+        "prefix": "method",
+        "body": "method=\"$1\"$0",
+        "description": "Set method attribute for form"
+    },
+    "action": {
+        "prefix": "action",
+        "body": "action=\"$1\"$0",
+        "description": "Set action attribute for form"
+    },
+
+    // Attributes for form elements
+    "type": {
+        "prefix": "type",
+        "body": "type=\"$1\"$0",
+        "description": "Set type attribute for form elements"
+    },
+    "name": {
+        "prefix": "name",
+        "body": "name=\"$1\"$0",
+        "description": "Set name attribute for form elements"
+    },
+    "placeholder": {
+        "prefix": "placeholder",
+        "body": "placeholder=\"$1\"$0",
+        "description": "Set placeholder attribute for form elements"
+    },
+    "value": {
+        "prefix": "value",
+        "body": "value=\"$1\"$0",
+        "description": "Set value attribute for form elements"
+    }
+}

@@ -1,23 +1,37 @@
 {
   "name": "vscode-jade-snippets",
-  "displayName": "Jade Snippets",
-  "description": "Jade Snippets for Visual Studio Code",
   "version": "0.1.1",
+  "displayName": "Pug (ex. Jade) snippets",
+  "description": "Pug (ex. Jade) snippets for Visual Studio Code",
   "publisher": "mrmlnc",
-  "icon": "icon.svg",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
   "galleryBanner": {
     "color": "#569a83",
     "theme": "dark"
   },
-  "engines": {
-    "vscode": "^0.10.1"
+  "icon": "icon.svg",
+  "homepage": "https://github.com/mrmlnc/vscode-jade-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrmlnc/vscode-jade-snippets"
   },
+  "keywords": [
+    "pug",
+    "jade",
+    "snippets"
+  ],
   "categories": [
     "Snippets"
   ],
-  "homepage": "https://github.com/mrmlnc/vscode-jade-snippets",
   "contributes": {
     "snippets": [
+      {
+        "language": "jade",
+        "path": "./snippets/attribute.json"
+      },
       {
         "language": "jade",
         "path": "./snippets/elements.json"
