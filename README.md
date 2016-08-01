@@ -1,146 +1,145 @@
-# Jade Snippets for Visual Studio Code
+# Jade (now Pug) Snippets for Visual Studio Code
 
-## Installation
+> Provides a base set of snippets for Jade (now Pug).
 
-To install, press `F1` and select `Extensions: Install Extensions` and then search for and select `jade snippets`.
+## Install
 
-## Snippets -> Elements
+  * Press `F1` and select `Extensions: Install Extensions`.
+  * Search for and select `jade snippets`.
 
-#### a
+See the [extension installation guide](https://code.visualstudio.com/docs/editor/extension-gallery) for details.
+
+## Supported languages
+
+  * Pug
+  * Jade
+
+## Snippets
+
+### Elements
 
 ```jade
-a.class(href="#", title="title") $0
+// a|
+a(href="#", title="title").class $0
+
+// figure|
+figure
+    img(src="source", alt="alt").class
+    figcaption $0
 ```
 
-#### img
+Snippet for `img` deleted in *1.0.0* version. Emmet works fine with Pug (ex. Jade). See [CheatSheet](http://docs.emmet.io/cheat-sheet/).
+
+### Attributes
 
 ```jade
-img.class(src="file", alt="alt")
-$0
+// Attributes for styling and controlling
+class| → class=""$0
+id|    → id=""$0
+
+// Common attributes
+data| → data-*=""$0
+aria| → aria-*=""$0
+role| → role=""$0
+
+// Attributes for form settings
+method| → method=""$0
+action| → action=""$0
+
+// Attributes for form elements
+type|        → type=""$0
+name|        → name=""$0
+placeholder| → placeholder=""$0
+value|       → value=""$0
 ```
 
-## Snippets -> Script
-
-#### script
+### Scripts
 
 ```jade
+//script|
 script(src="file.js")
 $0
-```
 
-#### script:inline
-
-```jade
+// script:inline|
 script.
     $1
 $0
-```
 
-#### script:include
-
-```jade
+// script:include|
 script
     include ./file.js
 $0
 ```
 
-## Snippets -> Style
-
-#### link
+### Styles
 
 ```jade
+// link|
 link(href="file.css", rel="stylesheet")
 $0
-```
 
-#### style
-
-```jade
+// style|
 style.
     $1
 $0
-```
 
-#### style:include
-
-```jade
+// style:include|
 style
     include ./file.css
 $0
 ```
 
-## Snippets -> syntax
-
-#### var
+### Syntax
 
 ```jade
+// var|
 - var name = $0
-```
 
-#### block
-
-```jade
+// block|
 block name
     $1
 $0
-```
 
-#### case
-
-```jade
+// case|
 case variable
     when condition
         code
     default
         code
 $0
-```
 
-#### each
-
-```jade
+// each|
 each val in []
     $1
 $0
-```
 
-#### while
-
-```jade
+// while|
 while condition
     $1
 $0
-```
 
-#### extends
-
-```jade
+// extends|
 extends ./file.jade
 $0
-```
 
-#### include
-
-```jade
+// include|
 include ./file.jade
 $0
-```
 
-#### mixin
-
-```jade
+// mixin|
 mixin name(vars)
     $1
 $0
-```
 
-#### mixin:call
-
+// mixin:call|
 ```jade
 +name(attrs)(attrs)
 $0
 ```
 
+## Changelog
+
+See the [Releases section of our GitHub project](https://github.com/mrmlnc/vscode-jade-snippets/releases) for changelogs for each release version.
 
 ## License
 
