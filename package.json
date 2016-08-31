@@ -8,11 +8,7 @@
   "engines": {
     "vscode": "^1.0.0"
   },
-  "galleryBanner": {
-    "color": "#569a83",
-    "theme": "dark"
-  },
-  "icon": "icon.svg",
+  "icon": "icon.png",
   "homepage": "https://github.com/mrmlnc/vscode-jade-snippets",
   "repository": {
     "type": "git",
