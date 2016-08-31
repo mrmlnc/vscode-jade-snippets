@@ -1,8 +1,8 @@
 {
   "name": "vscode-jade-snippets",
   "version": "1.0.0",
-  "displayName": "Pug (ex. Jade) snippets",
-  "description": "Pug (ex. Jade) snippets for Visual Studio Code",
+  "displayName": "Pug (Jade) snippets",
+  "description": "Pug and Jade snippets for Visual Studio Code",
   "publisher": "mrmlnc",
   "license": "MIT",
   "engines": {
